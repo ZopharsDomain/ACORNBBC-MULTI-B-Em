@@ -1,0 +1,5 @@
+pot.o: resid-fp/pot.cc resid-fp/pot.h resid-fp/siddefs-fp.h
+
+resid-fp/pot.h:
+
+resid-fp/siddefs-fp.h:

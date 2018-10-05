@@ -1,0 +1,359 @@
+b_em-vidopengl.o: vidopengl.c /usr/local/include/allegro.h \
+ /usr/local/include/allegro/base.h /usr/include/errno.h \
+ /usr/include/features.h /usr/include/bits/predefs.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.1/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.1/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.1/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.4.1/include/stddef.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib.h /usr/include/xlocale.h \
+ /usr/include/string.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/bits/string3.h \
+ /usr/local/include/allegro/internal/alconfig.h \
+ /usr/local/include/allegro/platform/alplatf.h \
+ /usr/local/include/allegro/platform/alucfg.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl2.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/bits/unistd.h \
+ /usr/local/include/allegro/platform/alunixac.h \
+ /usr/local/include/allegro/platform/astdint.h /usr/include/inttypes.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/local/include/allegro/system.h /usr/local/include/allegro/base.h \
+ /usr/local/include/allegro/unicode.h /usr/local/include/allegro/config.h \
+ /usr/local/include/allegro/inline/system.inl \
+ /usr/local/include/allegro/debug.h /usr/local/include/allegro/debug.h \
+ /usr/local/include/allegro/unicode.h /usr/local/include/allegro/mouse.h \
+ /usr/local/include/allegro/timer.h /usr/local/include/allegro/keyboard.h \
+ /usr/local/include/allegro/joystick.h \
+ /usr/local/include/allegro/palette.h /usr/local/include/allegro/gfx.h \
+ /usr/local/include/allegro/3d.h /usr/local/include/allegro/fixed.h \
+ /usr/local/include/allegro/inline/gfx.inl \
+ /usr/local/include/allegro/inline/asm.inl \
+ /usr/local/include/allegro/color.h /usr/local/include/allegro/palette.h \
+ /usr/local/include/allegro/inline/color.inl \
+ /usr/local/include/allegro/draw.h /usr/local/include/allegro/gfx.h \
+ /usr/local/include/allegro/inline/draw.inl \
+ /usr/local/include/allegro/3d.h \
+ /usr/local/include/allegro/inline/gfx.inl \
+ /usr/local/include/allegro/rle.h \
+ /usr/local/include/allegro/inline/rle.inl \
+ /usr/local/include/allegro/compiled.h /usr/local/include/allegro/text.h \
+ /usr/local/include/allegro/font.h /usr/local/include/allegro/fli.h \
+ /usr/local/include/allegro/config.h /usr/local/include/allegro/gui.h \
+ /usr/local/include/allegro/sound.h /usr/local/include/allegro/digi.h \
+ /usr/local/include/allegro/stream.h /usr/local/include/allegro/midi.h \
+ /usr/local/include/allegro/file.h /usr/local/include/allegro/lzss.h \
+ /usr/local/include/allegro/datafile.h /usr/local/include/allegro/fixed.h \
+ /usr/local/include/allegro/fmaths.h \
+ /usr/local/include/allegro/inline/fmaths.inl \
+ /usr/local/include/allegro/matrix.h /usr/local/include/allegro/fmaths.h \
+ /usr/local/include/allegro/inline/matrix.inl \
+ /usr/local/include/allegro/quat.h /usr/local/include/allegro/3d.h \
+ /usr/local/include/allegro/3dmaths.h \
+ /usr/local/include/allegro/inline/3dmaths.inl \
+ /usr/local/include/allegro/alcompat.h \
+ /usr/local/include/allegro/platform/alunix.h \
+ /usr/local/include/alleggl.h /usr/include/GL/gl.h \
+ /usr/include/GL/glext.h /usr/local/include/allegrogl/gl_ext.h \
+ /usr/local/include/allegrogl/gl_header_detect.h \
+ /usr/local/include/allegrogl/GLext/gl_ext_defs.h \
+ /usr/local/include/allegrogl/GLext/glx_ext_defs.h /usr/include/GL/glx.h \
+ /usr/include/X11/Xlib.h /usr/include/X11/X.h \
+ /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
+ /usr/include/X11/Xutil.h /usr/include/X11/keysym.h \
+ /usr/include/X11/keysymdef.h /usr/include/GL/glxext.h \
+ /usr/local/include/allegrogl/GLext/gl_ext_api.h \
+ /usr/local/include/allegrogl/GLext/glx_ext_api.h \
+ /usr/local/include/allegrogl/GLext/gl_ext_alias.h \
+ /usr/local/include/allegrogl/GLext/glx_ext_alias.h \
+ /usr/local/include/allegrogl/GLext/gl_ext_list.h \
+ /usr/local/include/allegrogl/GLext/glx_ext_list.h \
+ /usr/local/include/allegrogl/alleggl_config.h b-em.h
+
+/usr/local/include/allegro.h:
+
+/usr/local/include/allegro/base.h:
+
+/usr/include/errno.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.4.1/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.4.1/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.4.1/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.4.1/include/stddef.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/bits/string3.h:
+
+/usr/local/include/allegro/internal/alconfig.h:
+
+/usr/local/include/allegro/platform/alplatf.h:
+
+/usr/local/include/allegro/platform/alucfg.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/fcntl2.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/bits/unistd.h:
+
+/usr/local/include/allegro/platform/alunixac.h:
+
+/usr/local/include/allegro/platform/astdint.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/local/include/allegro/system.h:
+
+/usr/local/include/allegro/base.h:
+
+/usr/local/include/allegro/unicode.h:
+
+/usr/local/include/allegro/config.h:
+
+/usr/local/include/allegro/inline/system.inl:
+
+/usr/local/include/allegro/debug.h:
+
+/usr/local/include/allegro/debug.h:
+
+/usr/local/include/allegro/unicode.h:
+
+/usr/local/include/allegro/mouse.h:
+
+/usr/local/include/allegro/timer.h:
+
+/usr/local/include/allegro/keyboard.h:
+
+/usr/local/include/allegro/joystick.h:
+
+/usr/local/include/allegro/palette.h:
+
+/usr/local/include/allegro/gfx.h:
+
+/usr/local/include/allegro/3d.h:
+
+/usr/local/include/allegro/fixed.h:
+
+/usr/local/include/allegro/inline/gfx.inl:
+
+/usr/local/include/allegro/inline/asm.inl:
+
+/usr/local/include/allegro/color.h:
+
+/usr/local/include/allegro/palette.h:
+
+/usr/local/include/allegro/inline/color.inl:
+
+/usr/local/include/allegro/draw.h:
+
+/usr/local/include/allegro/gfx.h:
+
+/usr/local/include/allegro/inline/draw.inl:
+
+/usr/local/include/allegro/3d.h:
+
+/usr/local/include/allegro/inline/gfx.inl:
+
+/usr/local/include/allegro/rle.h:
+
+/usr/local/include/allegro/inline/rle.inl:
+
+/usr/local/include/allegro/compiled.h:
+
+/usr/local/include/allegro/text.h:
+
+/usr/local/include/allegro/font.h:
+
+/usr/local/include/allegro/fli.h:
+
+/usr/local/include/allegro/config.h:
+
+/usr/local/include/allegro/gui.h:
+
+/usr/local/include/allegro/sound.h:
+
+/usr/local/include/allegro/digi.h:
+
+/usr/local/include/allegro/stream.h:
+
+/usr/local/include/allegro/midi.h:
+
+/usr/local/include/allegro/file.h:
+
+/usr/local/include/allegro/lzss.h:
+
+/usr/local/include/allegro/datafile.h:
+
+/usr/local/include/allegro/fixed.h:
+
+/usr/local/include/allegro/fmaths.h:
+
+/usr/local/include/allegro/inline/fmaths.inl:
+
+/usr/local/include/allegro/matrix.h:
+
+/usr/local/include/allegro/fmaths.h:
+
+/usr/local/include/allegro/inline/matrix.inl:
+
+/usr/local/include/allegro/quat.h:
+
+/usr/local/include/allegro/3d.h:
+
+/usr/local/include/allegro/3dmaths.h:
+
+/usr/local/include/allegro/inline/3dmaths.inl:
+
+/usr/local/include/allegro/alcompat.h:
+
+/usr/local/include/allegro/platform/alunix.h:
+
+/usr/local/include/alleggl.h:
+
+/usr/include/GL/gl.h:
+
+/usr/include/GL/glext.h:
+
+/usr/local/include/allegrogl/gl_ext.h:
+
+/usr/local/include/allegrogl/gl_header_detect.h:
+
+/usr/local/include/allegrogl/GLext/gl_ext_defs.h:
+
+/usr/local/include/allegrogl/GLext/glx_ext_defs.h:
+
+/usr/include/GL/glx.h:
+
+/usr/include/X11/Xlib.h:
+
+/usr/include/X11/X.h:
+
+/usr/include/X11/Xfuncproto.h:
+
+/usr/include/X11/Xosdefs.h:
+
+/usr/include/X11/Xutil.h:
+
+/usr/include/X11/keysym.h:
+
+/usr/include/X11/keysymdef.h:
+
+/usr/include/GL/glxext.h:
+
+/usr/local/include/allegrogl/GLext/gl_ext_api.h:
+
+/usr/local/include/allegrogl/GLext/glx_ext_api.h:
+
+/usr/local/include/allegrogl/GLext/gl_ext_alias.h:
+
+/usr/local/include/allegrogl/GLext/glx_ext_alias.h:
+
+/usr/local/include/allegrogl/GLext/gl_ext_list.h:
+
+/usr/local/include/allegrogl/GLext/glx_ext_list.h:
+
+/usr/local/include/allegrogl/alleggl_config.h:
+
+b-em.h:
